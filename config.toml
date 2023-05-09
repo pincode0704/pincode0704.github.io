@@ -1,4 +1,55 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
+baseURL = "https://pincode0704.github.io"
 title = 'My New Hugo Site'
 theme = "PaperMod"
+
+languageCode = "zh-tw"
+
+buildDrafts = false
+
+[[menu.main]]
+
+identifier = "categories"
+name = "Categories"
+url = "/categories/"
+weight = 20
+
+[[menu.main]]
+
+identifier = "tags"
+name = "Tags"
+url = "/tags/"
+weight = 20
+
+[[menu.main]]
+identifier = "archives"
+name = "Archives"
+url = "/archives/"
+weight = 30
+
+[params.profileMode]
+enabled = true
+title = "Enter the Content"
+subtitle = "Enter the Content"
+imageUrl = "img/001.png"
+imageWidth = 120
+imageHeight = 120
+imageTitle = "Enter the content"
+
+[[params.profileMode.buttons]]
+name = "Blog"
+url = "/posts/"
+
+[[params.profileMode.buttons]]
+name = "Categories"
+url = "/categories/"
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/pincode0704"
+
+[[params.socialIcons]]
+name = "Facebook"
+url = ""
+[[params.socialIcons]]
+name = "Instagram"
+url = ""
